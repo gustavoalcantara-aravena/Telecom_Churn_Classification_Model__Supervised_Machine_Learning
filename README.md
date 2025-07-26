@@ -109,17 +109,6 @@ Prioritize Random Forest without SMOTE for deployment due to its balance of perf
 
 - Customers without voicemail services
 
-## 🧑 Author
-Gustavo Alcántara Aravena
-
-## 📘 Diploma in Data Science, Machine Learning, AI, Deep Learning
-Pontificia Universidad Católica de Valparaíso (PUCV), Chile
-📍 Valparaíso, 2025
-
-
-
-
-
 
 
 # 📉 Modelo de Clasificación de Fuga de Clientes (Churn) - Telecomunicaciones
