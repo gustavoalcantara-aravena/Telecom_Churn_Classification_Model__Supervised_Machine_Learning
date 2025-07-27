@@ -1,8 +1,6 @@
 # 📉 Telecom_Churn_Classification_Model__Supervised_Machine_Learning
 
-This project focuses on predicting customer churn in a telecommunications company using supervised machine learning. Several classic classification models were implemented and evaluated under different class imbalance scenarios, including the application of the SMOTE oversampling technique.
-
-The work was developed as part of the **Data Science, Machine Learning, Artificial Intelligence, and Deep Learning Diploma** at the Pontificia Universidad Católica de Valparaíso (PUCV), Chile, in 2025.
+A comprehensive pipeline was implemented to predict customer churn using classification models based on Random Forest and Support Vector Machine (SVM with RBF kernel), incorporating advanced exploratory analysis, preprocessing, feature engineering, and class imbalance management techniques. The exploratory analysis was based on descriptive statistics, multivariate visualizations, and outlier detection using the interquartile range (IQR) method. Preprocessing included the removal of irrelevant attributes, binary and categorical coding (label encoding and one-hot encoding), and variable normalization using StandardScaler. In the feature engineering phase, a derived variable (customer_service_cat) was designed by segmenting users based on their frequency of contact with customer service, which allowed us to infer relevant predictors of churn. To address class disproportionality, the SMOTE technique was applied in two approaches: homogeneous (both models with SMOTE) and hybrid (only SVM with SMOTE). Performance validation was performed using robust metrics such as precision, recall, F1-score (with emphasis on class churn), ROC and Precision-Recall curves, as well as confusion matrices and comparative visualization of performance between models.
 
 ---
 
